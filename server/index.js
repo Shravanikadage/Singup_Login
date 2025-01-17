@@ -9,7 +9,7 @@ const port = 3001;
 // Middleware
 app.use(cors(
     {
-        origin: ["https://singup-login-client.vercel.app/"],
+        origin: ["https://singup-login-client.vercel.app"],
         methods: ["POST","GET"],
         credentials: true
     }
