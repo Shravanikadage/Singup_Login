@@ -9,7 +9,7 @@ const port = 3001;
 // Middleware
 app.use(cors(
     {
-        origin: ["https://deploy-mern-1whq.vercel.app"],
+        origin: ["https://singup-login-server.vercel.app/"],
         methods: ["POST","GET"],
         credentials: true
     }
